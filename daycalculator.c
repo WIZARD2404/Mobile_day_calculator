@@ -185,7 +185,7 @@ int main()
                     printf("Your zodiac sign is Sagittarius - Archer\n");
                 } else if (((month == 12) && (day >= 22)) || ((month == 1) && (day <= 19))){
                     printf("Your zodiac sign is Cappricornus - Goat \n");
-                }
+                } else;
                 return (0);
         }
 
@@ -197,11 +197,13 @@ int main()
                 // 1970 The limit of time() function
                 int age = (1970 + geg) - year ;
                 printf("You are %d years old\n\n", age);
+                return (0);
         }
 
         int days_spent(void)
         {
-                printf("You've spent approximately %d days on earth", d)
+               // printf("You've spent approximately %d days on earth", d)
+               return (0);
         }
         daycalc();
         zodiac();
