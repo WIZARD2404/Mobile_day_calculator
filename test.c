@@ -162,29 +162,29 @@ int main()
         {
                 //while(flag)
                 if (((month == 1) && (day >= 20)) || ((month == 2) && (day <= 18))){
-                    printf("Your zodiac sign is Aquarius \(Water Bearer\)\n");
+                    printf("Your zodiac sign is Aquarius - Water Bearer\n");
                 }else if (((month == 2) && (day >= 19)) || ((month == 3) && (day <= 19))){
-                    printf("Your zodiac sign is Pisces\n");
+                    printf("Your zodiac sign is Pisces - Fish\n");
                 } else if (((month == 3) && (day >= 21)) || ((month == 4) && (day <= 19))){
-                    printf("Your zodiac sign is Aquarius \(Water Bearer\)\n");
-                } else if (((month == 4) && (day >= 21)) || ((month == 5) && (day <= 19))){
-                    printf("Your zodiac sign is Aquarius \(Water Bearer\)\n");
-                } else if (((month == 5) && (day >= 21)) || ((month == 6) && (day <= 19))){
-                    printf("Your zodiac sign is Aquarius \(Water Bearer\)\n");
-                } else if (((month == 6) && (day >= 21)) || ((month == 7) && (day <= 19))){
-                    printf("Your zodiac sign is Aquarius \(Water Bearer\)\n");
-                } else if (((month == 7) && (day >= 21)) || ((month == 8) && (day <= 19))){
-                    printf("Your zodiac sign is Aquarius \(Water Bearer\)\n");
-                } else if (((month == 8) && (day >= 21)) || ((month == 9) && (day <= 19))){
-                    printf("Your zodiac sign is Aquarius \(Water Bearer\)\n");
-                } else if (((month == 9) && (day >= 21)) || ((month == 10) && (day <= 19))){
-                    printf("Your zodiac sign is Aquarius \(Water Bearer\)\n");
-                } else if (((month == 10) && (day >= 21)) || ((month == 11) && (day <= 19))){
-                    printf("Your zodiac sign is Aquarius \(Water Bearer\)\n");
-                } else if (((month == 11) && (day >= 21)) || ((month == 12) && (day <= 19))){
-                    printf("Your zodiac sign is Aquarius \(Water Bearer\)\n");
-                } else if (((month == 12) && (day >= 1)) || ((month == 10) && (day <= 19))){
-                    printf("Your zodiac sign is Aquarius \(Water Bearer\)\n");
+                    printf("Your zodiac sign is Aries - Ram\n");
+                } else if (((month == 4) && (day >= 20)) || ((month == 5) && (day <= 20))){
+                    printf("Your zodiac sign is Taurus - Bull\n");
+                } else if (((month == 5) && (day >= 21)) || ((month == 6) && (day <= 21))){
+                    printf("Your zodiac sign is Gemini - Twins \n");
+                } else if (((month == 6) && (day >= 22)) || ((month == 7) && (day <= 22))){
+                    printf("Your zodiac sign is Cancer - Crab \n");
+                } else if (((month == 7) && (day >= 23)) || ((month == 8) && (day <= 22))){
+                    printf("Your zodiac sign is Leo - Lion\n");
+                } else if (((month == 8) && (day >= 23)) || ((month == 9) && (day <= 22))){
+                    printf("Your zodiac sign is Virgo - Virgin \n");
+                } else if (((month == 9) && (day >= 23)) || ((month == 10) && (day <= 23))){
+                    printf("Your zodiac sign is Libra - Balance\n");
+                } else if (((month == 10) && (day >= 24)) || ((month == 11) && (day <= 21))){
+                    printf("Your zodiac sign is Scorpius - Scorpion\n");
+                } else if (((month == 11) && (day >= 22)) || ((month == 12) && (day <= 21))){
+                    printf("Your zodiac sign is Sagittarius - Archer\n");
+                } else if (((month == 12) && (day >= 22)) || ((month == 1) && (day <= 19))){
+                    printf("Your zodiac sign is Cappricornus - Goat \n");
                 }
                 return (0);
         }
@@ -196,13 +196,17 @@ int main()
                 //The numbers used here were discovered based on research
                 // 1970 The limit of time() function
                 int age = (1970 + geg) - year ;
-                printf("Your age is %d year\(s\)\n\n", age);
+                printf("You are %d years old\n\n", age);
         }
 
-        int days_spent(void){}
+        int days_spent(void)
+        {
+                printf("You've spent approximately %d days on earth", d)
+        }
         daycalc();
         zodiac();
         age_f();
+        days_spent();
         eof: printf("I just started learning C recently so if you like this code,"\
              " encourage me by hitting the upvote button and drop a comment below"\
              " on features you'll like me to add. And please let me know if you spotted an error.");
@@ -212,9 +216,9 @@ int main()
 
 /**********************************************************************************************************
  * Still under construction => Get the PC version on Github(https://github.com/WIZARD2404/day_of_week.git)*
- *                                                             ********************************************
- *                                                             *
+ *                                                                                    *********************
+ * The motivation behind this cod is , i saw his c++ version and decided to make mine                                                          *
  * This code is Open source and can be rebuilt and redeployed  *
  *                                                             *
- * Credits: GHOST, Leo.                                        *
+ * Credits: Ghost, Leo.                                        *
  ***************************************************************/
